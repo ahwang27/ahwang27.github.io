@@ -21273,7 +21273,7 @@ var AddVenue = function (_Component) {
 
                             _context.prev = 1;
                             _context.next = 4;
-                            return _axios2.default.post('http://localhost:4000/venues/', {
+                            return _axios2.default.post('https://lit-reaches-91009.herokuapp.com/venues/', {
                                 "name": _this.state.name,
                                 "description": _this.state.description,
                                 "category": _this.state.category,
@@ -47922,7 +47922,7 @@ var Login = function (_React$Component) {
                         case 0:
                             _context.prev = 0;
                             _context.next = 3;
-                            return _axios2.default.post('http://localhost:4000/users/login', {
+                            return _axios2.default.post('https://lit-reaches-91009.herokuapp.com/users/login', {
                                 username: _this.state.username,
                                 password: _this.state.password
                             });
@@ -62109,7 +62109,7 @@ var Dashboard = function (_Component) {
                         case 0:
                             _context.prev = 0;
                             _context.next = 3;
-                            return _axios2.default.get('http://localhost:4000/venues/');
+                            return _axios2.default.get('https://lit-reaches-91009.herokuapp.com/venues/');
 
                         case 3:
                             res = _context.sent;
